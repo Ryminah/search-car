@@ -1,0 +1,11 @@
+{
+  "homepage":"https://Ryminah.github.io/search-car",
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts":{
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+  
+}
